@@ -1,0 +1,308 @@
+#names {
+    font-size: 20px;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+#previousPage {
+    width: 13%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+
+
+.galleryView {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1% auto;
+}
+
+.memberPic {
+    width: 480px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.teamMemberGallery {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0; 
+}
+
+.teamMemberGallery::-webkit-scrollbar {
+    display:none;
+}
+
+.memberNamePic {
+    bottom: 0;
+    margin-top: 0;
+    font-size: 16px; 
+    color: #0A3981;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+}
+
+.pagePic {
+    width: 350px;
+    margin-left: 80px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.pageName {
+    font-size: 50px;
+    color: #336178;
+    position: absolute;
+    right: 0px;
+    top: 250px;
+    left: 470px;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.pageNameSchool {
+    position: absolute;
+    right: 0px;
+    top: 390px;
+    left: 470px;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#email {
+    color: #336178;
+    position: absolute;
+    right: 0px;
+    top: 450px;
+    left: 470px;
+    font-size: 19px;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.line {
+    position: absolute;
+    right: 0px;
+    top: 450px;
+    right: 530px;
+    width: 710px;
+}
+
+#courses {
+    color: #336178;
+    position: absolute;
+    right: 0px;
+    top: 540px;
+    left: 471px;
+    font-size: 18px;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#courses ul {
+    margin-left: 0; 
+    padding-left: 1px; 
+}
+
+#education {
+    color: #336178;
+    position: absolute;
+    top: 540px;
+    right: 500px;
+    font-size: 18px;
+    font-family: "Parkinsans", sans-serif;
+    max-width: 360px;
+}
+
+.pagePic {
+    width: 21%;
+    margin-left: 4%;
+    margin-top: 2.5%;
+    cursor: default;
+}
+
+.pageName {
+    font-size: 290%;
+    color: #336178;
+    position: absolute;
+    right: 0%;
+    top: 26%;
+    left: 27%;
+}
+
+.pageNameStudy {
+    font-weight: bold;
+    font-size: 140%;
+    position: absolute;
+    right: 0%;
+    top: 37%;
+    left: 27.5%;
+    color: #1F509A;
+}
+
+.pageNameSchool {
+    position: absolute;
+    font-size: 120%;
+    right: 0%;
+    top: 39.8%;
+    left: 27.5%;
+    color: #E38E49;
+}
+
+.line {
+    position: absolute;
+    color: #336178;
+    width: 42%;
+    top: 48.5%;
+    left: 25.5%;
+}
+
+#email {
+    font-size: 130%;
+    position: absolute;
+    right: 0%;
+    top: 48%;
+    left: 27.5%;
+}
+
+#courses {
+    position: absolute;
+    right: 0%;
+    top: 55.6%;
+    left: 27.5%;
+}
+
+#currentCourses, #pastEducation {
+    font-weight: bold;
+    font-size: 140%;
+    color: #336178;
+    margin-bottom: 5%;
+}
+
+#education {
+    position: absolute;
+    right: 0%;
+    top: 55.6%;
+    right: 34%; 
+    max-width: 15%;
+}
+
+#courses ul, #education ul {
+    padding-left: 0%;
+    font-size: 108%;
+    color: #1F509A;
+}
+
+.teamMates {
+    color: #336178;
+    font-size: 170%;
+    position: absolute;
+    right: 10.8%;
+    top: 26%;
+}
+
+.firstPicBox {
+    position: absolute;
+    align-items: center;
+    display: inline-block;
+    width: fit-content; 
+    right: 9.3%;
+    top: 33%;
+    gap: 60%;
+}
+
+.secondPicBox {
+    position: absolute;
+    align-items: center;
+    display: inline-block;
+    width: fit-content; 
+    right: 9.3%;
+    top: 49%;
+    gap: 60%;
+}
+
+.thirdPicBox {
+    position: absolute;
+    align-items: center;
+    display: inline-block;
+    width: fit-content;
+    right: 9.3%;
+    top: 65%;
+    gap: 60%;
+}
+
+.picSmall {
+    width: 100px;
+    height: auto;
+}
+
+.smallTitle {
+    position: right;
+    margin-left: 110px;
+    margin-bottom: 20000px;
+    color: #0A3981;
+    font-family: "Parkinsans", sans-serif;
+}
+
+#whoAreYou {
+    position: absolute;
+    font-family: "Parkinsans", sans-serif;
+    color: #336178;
+    width: 21%;
+    margin-left: 16%;
+    margin-top: 2%;
+    border: 2% solid #D4EBF8; 
+    padding: 1.0%; 
+    width: 35%; 
+    background-color: #f8f8f8; 
+    word-wrap: break-word;
+    font-size: 100%;
+}
+
+.whoAmI {
+    width: 10%;
+    position: absolute;
+    right: 9%;
+    top: 2%;
+}
+
+.doctorWho {
+    font-family: "Parkinsans", sans-serif;
+    color: #1F509A;
+}
+
+#previousButton {
+    width: 20%;
+    cursor: pointer;
+}
+
+#nextButton {
+    width: 20%;
+    cursor: pointer;
+}

@@ -1,0 +1,203 @@
+/*.root {
+    --ada-blue: #336178;
+    --ada-red: #ae485e;
+}*/
+
+
+body {
+    background-color: #D4EBF8;
+    
+}
+
+.teamName {
+    font-size: 70px;
+    text-align: center;
+    font: #D3F1DF;
+    font-family: "Nosifer", sans-serif; 
+}
+
+.welcomeToWeb {
+    font-family: "Parkinsans", sans-serif;
+}
+
+#adaLogo {
+    width: 11%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+.teamName {
+    font-size: 70px;
+    text-align: center;
+    color: #89A8B2; /*#FFFAF0*/
+    font-family: "Nosifer", sans-serif; 
+}
+
+#adaLogo {
+    width: 11%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+#teamLogo {
+    width: 13%;
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+}
+
+#teamLogo {
+    width: 13%;
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+}
+
+.mainTab {
+    height: 80px;
+    width: 100%;
+    top: 0;
+    right: 0;   
+    display: flex; 
+    justify-content: space-between;
+    font-family: "Parkinsans", sans-serif;
+    font-size: 80%;
+}
+.mainTab ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding-left: 400px;
+}
+.mainTab li {
+    width: 125px;
+    height: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 50px;
+    
+}
+.mainTab  a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.intro h1 {
+    text-align: center;
+    color: black;
+    margin: 1%;
+}
+
+.intro ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5%;
+    text-align: center;
+}
+
+.intro li {
+    margin-bottom: 10%;
+}
+
+.intro a {
+    color: black;
+    text-decoration: none;
+}
+
+#groupPic {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+#groupPic:hover {
+    filter: grayscale(10);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+
+.navrow{
+    width: 100%;
+    height: 20%;
+    margin-top: 4%;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    right: 0;
+    justify-content: space-around;
+    display: flex;
+    background-color: #B3C8CF;
+}
+#instagram{
+    width: 6%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 3% 0 10% 1%;
+}
+    
+.Facebook{
+    height:50%;
+    width: 6%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 3% 0% 10% 18%;
+}
+.contactus{
+    margin: 4% 81% 10% 1%;
+}
+.groupMembers {
+    list-style: none;
+    padding: 0;
+    margin: 2% 3%;
+    color: #0A3981;
+    font-size: 20px;
+    font-family: "Parkinsans", sans-serif;
+    right: 50%;
+}
+
+.groupMembers ul li {
+    margin-bottom: 0.5%;
+    background: #f1eceb;
+    padding: 0.7%;
+    border-radius: 5px;
+    border: 1px solid #b7aeac;
+    font-family: "Parkinsans", sans-serif;
+}
+
+p {
+    margin: 2% 4%;
+    line-height: 1.8;
+}
+
+.groupMembers li {
+    color: #d4c9c7;
+    text-decoration: none;
+}
+
+.groupMembers li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    margin: 20% auto;
+    flex-direction: column;
+    max-width: 120%;
+}
+
+footer h3 {
+    color: white;
+    margin-bottom: 10%;
+}

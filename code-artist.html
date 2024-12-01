@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- 
+    SITE 1101 Principles of Information Systems 
+    (c)202X by Name Surname 
+    Submitted in partial fulfillment of the requirements of the course.
+-->
+<html>
+    <head>
+        <title>Homework 3: Team members</title>
+        <link rel="stylesheet" href="scripts.css">  
+        <link rel="stylesheet" href="teammembers.css">
+        <link rel="stylesheet" href="styles.css">  
+        <script type="text/javascript" src="scripts.js"></script> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+        <h1 class="teamName">Team "Horror of Code"</h1>
+        <a href="https://ada.edu.az" target="_blank">
+            <img alt="ADA Logo" id="adaLogo" src="media/ada_logo_color.png">
+        </a>
+        <img alt="Team logo" id="teamLogo" src="media/ADAlogo.png">
+        <nav class="mainTab">
+            <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="hour-of-code.html">Hour of Code</a></li>
+            <li><a href="web-project.html">Web Project</a></li>
+            <li><a href="team-members.html">Team Members</a></li>
+            <li><a href="code-artist.html">Code art</a></li>
+            </ul>
+        </nav>     
+    </head>
+    <body>
+        #Homework 3: How websites work?
+        <div style="text-align:center">
+            <canvas id="art-canvas" width="640" height="480">
+                Sorry ... your browser doesn't support the HTML5 canvas element.
+            </canvas>        
+        </div>          
+
+        <script type="text/javascript">
+            // Get reference to the 2D context of the canvas
+            let canvas = document.getElementById("art-canvas");
+            let context = canvas.getContext("2d");
+            // Set the color for drawing lines using red, green and blue components
+            // context.strokeStyle = 'rgb(255, 0, 0)';
+            context.strokeStyle = `rgb(${255 * Math.random()}, ${255 * Math.random()}, ${255 * Math.random()})`;
+            DrawSpiral(context);
+        </script>
+        <footer class="navrow">
+            <div > 
+                <a href="https://ada.edu.az" target="_blank">
+                    <img alt="ADA Logo" id="adaLogo" src="media/ada_logo_color.png">
+                </a> 
+            </div>
+        <div class="contactus">
+            <h3>Contact With Us</h3>
+            <a href="https://www.instagram.com/team_41._/profilecard/?igsh=MTNmd2o2amtocmVvNg==" target="_blank">
+                <img src="media/instagram-2.png" alt="Instagram logo" id="instagram">
+            </a>
+            <a href="" >
+                <img src="media/Facebook_Logo_2023.png" class="Facebook" alt="Facebook logo">
+            </a>
+        </div>
+        </footer>
+    </body>
+</html>
